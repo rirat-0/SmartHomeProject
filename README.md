@@ -8,3 +8,5 @@
 - MQTT- Setup ?
 
 - Explanation of tech used ?
+
+- License ?
