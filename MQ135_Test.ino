@@ -6,8 +6,8 @@
 
 //folgende vier Parameter anpassen.
 //--------------------------------
-const char* ssid = "Hobbie";
-const char* password = "Ehrlichkeit71969";
+const char* ssid = "XXXX";
+const char* password = "XXXX";
 
 const char* mqtt_topic_publish1 = "sensor/MQ135";
 
