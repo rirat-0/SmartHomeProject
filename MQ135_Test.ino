@@ -15,10 +15,10 @@ const char* mqtt_topic_publish1 = "sensor/MQ135";
 
 //folgende vier Parameter nicht ändern
 //--------------------------------
-const char* mqtt_server = "mqtt.iot.informatik.uni-oldenburg.de";
-const int mqtt_port = 2883;
-const char* mqtt_user = "sutk";
-const char* mqtt_pw = "SoftSkills";
+const char* mqtt_server = "XXXX";
+const int mqtt_port = XXXX;
+const char* mqtt_user = "XXXX";
+const char* mqtt_pw = "XXXX";
 //--------------------------------
 
 StaticJsonDocument<512> doc_config;
@@ -163,14 +163,4 @@ void loop() {
       char val_buff[val_str.length() + 1];
       val_str.toCharArray(val_buff, val_str.length() + 1);
       client.publish(mqtt_topic_publish, val_buff);
-
-      // Publish float (auch hier wieder char array)
-      float pi = 3.14;
-      String pi_str = String(pi);
-      char pi_buff[pi_str.length() + 1];
-      pi_str.toCharArray(pi_buff, pi_str.length() + 1);
-      client.publish(mqtt_topic_publish, pi_buff);
-
-    */
-
 }
