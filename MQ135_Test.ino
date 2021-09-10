@@ -103,7 +103,6 @@ void reconnect() {
 }
 
 void setup() {
-  pinMode(BUILTIN_LED, OUTPUT);     // Initialize the BUILTIN_LED pin as an output
   pinMode(READPIN, INPUT);
   Serial.begin(115200);
   setup_wifi();
@@ -127,40 +126,4 @@ void loop() {
   publishData(pinValue);
 
   delay(2000);
-    //String val_str1 = String(feuchtigkeit1);
-    //char val_buff1[val_str1.length() + 1];
-    //val_str1.toCharArray(val_buff1, val_str1.length() + 1);
-    //client.publish(mqtt_topic_publish1, val_buff1);
-
-
-
-
-
-    // Publish Char Array (einfachste Methode)
-    //client.publish(mqtt_topic_publish, "Hallo Welt");
-
-    //Im folgenden sind Codebeispiele für verschiedene Datentypen, die versendet werden sollen.
-
-    /*
-      // Publish String (String muss in ein Char-Array umgewandelt werden)
-      String payload = "Hallo Welt";
-      //Erzeuge Char Array der Länge der Strings + 1 für den Nullterminator am Ende
-      char payload_buff[payload.length() + 1];
-      // Wandelt String mit dem Befehl toCharArray(buf, len) in Array um
-      payload.toCharArray(payload_buff, payload.length() + 1);
-      //uund abschicken
-      client.publish(mqtt_topic_publish, payload_buff);
-
-      // Publish JSON (JSON String muss ebenfalls in Char Array umgewandelt werden. Verfahren ist vollkommen analog zu oben)
-      ++val;
-      String json_payload = "{\"message\":\"Hallo Welt\",\"number\":" + String(val) + "}";
-      char json_payload_buff[json_payload.length() + 1];
-      json_payload.toCharArray(json_payload_buff, json_payload.length() + 1);
-      client.publish(mqtt_topic_publish, json_payload_buff);
-
-      // Publish int (auch hier muss die Zahl erst in einen String umgewandelt werden, damit wir daraus ein Array machen können)
-      String val_str = String(val);
-      char val_buff[val_str.length() + 1];
-      val_str.toCharArray(val_buff, val_str.length() + 1);
-      client.publish(mqtt_topic_publish, val_buff);
 }
