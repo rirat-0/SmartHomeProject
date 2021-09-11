@@ -27,6 +27,7 @@ To make a Discord bot follow the given guide to make a bot account:
 https://www.freecodecamp.org/news/create-a-discord-bot-with-python/
 To use this bot accountant in node-red, click on the send-message-node and add the token you can redeem in 
 the Discord API. If you do not already have a private Discord server, this guide can help you create one:
+
 https://blog.discord.com/starting-your-first-discord-server-4dcacda8dad5
 Next up you need the channel ID of the Discord channel, in which the discord bot will send the messages.
 To get this ID, enable developer mode in Discord. This can be done by going to user setting, then going to 
