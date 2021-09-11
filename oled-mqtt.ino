@@ -14,7 +14,7 @@ const char* mqtt_topic_publish = "G05/OLEDshield";
 const char* ssid = "XXXXX";
 const char* password = "XXXXX";
 const char* mqtt_server = "XXXXX";
-const int mqtt_port = 2883;
+const int mqtt_port = XXXXX;
 const char* mqtt_user = "XXXXX";
 const char* mqtt_pw = "XXXXX";
 
