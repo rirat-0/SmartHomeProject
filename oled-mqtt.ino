@@ -11,12 +11,12 @@ Adafruit_SSD1306 display(OLED_RESET);
 
 const char* mqtt_topic_subscribe = "G05/airsensor/+";
 const char* mqtt_topic_publish = "G05/OLEDshield";
-const char* ssid = "AnLu WLAN";
-const char* password = "LA221197!";
-const char* mqtt_server = "mqtt.iot.informatik.uni-oldenburg.de";
+const char* ssid = "XXXXX";
+const char* password = "XXXXX";
+const char* mqtt_server = "XXXXX";
 const int mqtt_port = 2883;
-const char* mqtt_user = "sutk";
-const char* mqtt_pw = "SoftSkills";
+const char* mqtt_user = "XXXXX";
+const char* mqtt_pw = "XXXXX";
 
 
   int co2 = 0;
