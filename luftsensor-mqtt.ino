@@ -11,8 +11,8 @@ CCS811 airSensor(CCS811_ADDR);
 const char* mqtt_topic_publish1 = "G05/airsensor/co2";
 const char* mqtt_topic_publish2 = "G05/airsensor/tvoc";
 const char* mqtt_topic_subscribe = "G05/OLEDshield";
-const char* ssid = "AnLu WLAN";
-const char* password = "LA221197!";
+const char* ssid = "XX";
+const char* password = "XX";
 
 const char* mqtt_server = "mqtt.iot.informatik.uni-oldenburg.de";
 const int mqtt_port = 2883;
