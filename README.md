@@ -32,4 +32,6 @@ https://blog.discord.com/starting-your-first-discord-server-4dcacda8dad5
 Next up you need the channel ID of the Discord channel, in which the discord bot will send the messages.
 To get this ID, enable developer mode in Discord. This can be done by going to user setting, then going to 
 Advanced and enabling the Developer Mode. Now you can right-click on any channel and have the option to
-copy its ID. After choosing the channel for your bot and getting the ID, paste it in the sned-message-node.
+copy its ID. After choosing the channel for your bot and getting the ID, paste it in the send-message-node.
+
+All there is left to do is deploying the node-red instance.
