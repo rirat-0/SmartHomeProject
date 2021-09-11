@@ -1,12 +1,5 @@
 # SmartHomeProject
 
-- TOC
-
-- Installation of software
-  - Connect Arduino with network
-
-- MQTT- Setup ?
-
 - Explanation of tech used ?
 
 - License ?
@@ -39,3 +32,7 @@ Advanced and enabling the Developer Mode. Now you can right-click on any channel
 copy its ID. After choosing the channel for your bot and getting the ID, paste it in the send-message-node.
 
 All there is left to do is deploying the node-red instance.
+
+
+
+## Library's used
