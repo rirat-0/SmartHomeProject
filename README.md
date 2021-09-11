@@ -14,9 +14,13 @@
 ## Setup and installation of software
 
 After printing the provided cases, start by compiling and uploading given code to their respective D1 Mini.
+To connect the D1 Minis to your local network change the X's at _const char* ssid_ to the name of the local
+network and below that change the X's to the network's password. In the following lines are the respective 
+mqtt-inputs. Depending on your chosen node-red-instance change the ports, etc. to the ones you chose.
+
 Next up is the setup of the mqtt-protocol. The first step here is choosing between a public Node-Red server
-or installing a private instance on a server of your own. If you chose the latter the following guide may be 
-helpful: https://nodered.org/docs/getting-started/raspberrypi .
+or installing a private instance on a server of your own, like a raspberry pi. If you chose the latter the 
+following guide may be helpful: https://nodered.org/docs/getting-started/raspberrypi .
 
 For this project you will want to use three mqtt-input nodes. Two are for the sensors within the CCS811 and 
 one for the OLED-Shield. The mqtt-nodes for the sensors are only for debugging and testing of the outputs of
