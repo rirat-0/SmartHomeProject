@@ -18,10 +18,10 @@ Next up is the setup of the mqtt-protocol. The first step here is choosing betwe
 or installing a private instance on a server of your own. If you chose the latter the following guide may be 
 helpful: https://nodered.org/docs/getting-started/raspberrypi .
 
-For this project you will want to use three mqtt-input nodes. Twoe are for the sensors within the CCS811 and 
+For this project you will want to use three mqtt-input nodes. Two are for the sensors within the CCS811 and 
 one for the OLED-Shield. The mqtt-nodes for the sensors are only for debugging and testing of the outputs of
 the CCS811, making them optional. The third input-node is not optional since it will be used to connect to a
-discord-node which will make a bot send a message to a dedicated channel on a server.
+Discord-node which will make a bot send a message to a dedicated channel on a server.
 
 To make a Discord bot follow the given guide to make a bot account: 
 https://www.freecodecamp.org/news/create-a-discord-bot-with-python/
