@@ -11,9 +11,10 @@ CCS811 airSensor(CCS811_ADDR);
 const char* mqtt_topic_publish1 = "G05/airsensor/co2";
 const char* mqtt_topic_publish2 = "G05/airsensor/tvoc";
 const char* mqtt_topic_subscribe = "G05/OLEDshield";
+//WLAN Zugangsdaten eintragen:
 const char* ssid = "XXXXX";
 const char* password = "XXXXX";
-
+//MQTT Zugangsdaten eintragen:
 const char* mqtt_server = "XXXXX";
 const int mqtt_port = XXXXX;
 const char* mqtt_user = "XXXXX";
