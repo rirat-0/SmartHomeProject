@@ -11,8 +11,10 @@ Adafruit_SSD1306 display(OLED_RESET);
 
 const char* mqtt_topic_subscribe = "G05/airsensor/+";
 const char* mqtt_topic_publish = "G05/OLEDshield";
+//WLAN Zugangsdaten eintragen:
 const char* ssid = "XXXXX";
 const char* password = "XXXXX";
+//MQTT Zugangsdaten eintragen:
 const char* mqtt_server = "XXXXX";
 const int mqtt_port = XXXXX;
 const char* mqtt_user = "XXXXX";
