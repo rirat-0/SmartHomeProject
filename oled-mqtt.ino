@@ -154,7 +154,7 @@ void loop() {
 
 if (millis() - lastMsg > 5000) {
     lastMsg = millis();
-      if (co2 >= 4000) {
+      if (co2 >= 6000 && tvoc >= 500) {
         client.publish(mqtt_topic_publish, "FEUER!");
       }
 }
