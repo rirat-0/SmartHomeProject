@@ -33,4 +33,16 @@ All there is left to do is deploying the node-red instance.
 
 
 
-## Library's used
+## Libraries used
+
+CCS811 sensor:
+Wire.h – enables communication via the I2C protocol
+WifiManager by tzapu,tablatronix – enables WiFi connection
+PubSubClient by Nick O’Leary- enables MQTT communication
+SparkFun CCS811 Arduino Library – enables control of the sensor
+
+
+OLED shield:
+Adafruit BusIO – enables communication between OLED shield and a microcontroller
+Adafruit_GFX.h (version 1.2.3) – enables e.g. different fonts / graphic library
+Adafruit_SSD1306.h (version 1.1.2) – enables communication with the OLED Shield
