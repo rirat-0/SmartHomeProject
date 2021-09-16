@@ -1,7 +1,5 @@
 # SmartHomeProject
 
-- Explanation of tech used ?
-
 ## Setup and installation of software
 
 After printing the provided cases, start by compiling and uploading given code to their respective D1 Mini.
